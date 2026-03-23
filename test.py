@@ -22,7 +22,7 @@ pca = PCA(n_components=2)  # 2 is chosen as it compiles almost 99.9% of the whol
 pca_data = pca.fit_transform(scaled_dataset)
 
 # Applying DBSCAN for clustering as the data is in form of globules
-dbscan = DBSCAN(eps=0.335, min_samples=7)
+dbscan = DBSCAN(eps=0.335, min_samples=7) #0.335 is chosen since the elbow point comes between 0.32 and0.35
 labels = dbscan.fit_predict(pca_data)
 
 # Number of anomalies calculated, which can be a rare event or noise
