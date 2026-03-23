@@ -85,7 +85,7 @@ These features represent stock price movements and trading activity over time.
 * Y-axis → PC2 (Volume Influence)
 * Clusters are color-coded
 * Anomalies are highlighted in **red**
-* ![Cluster Plot](cluster_plot.png)
+![Cluster Plot](cluster_plot.png)
 
 ---
 
