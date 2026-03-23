@@ -88,7 +88,10 @@ These features represent stock price movements and trading activity over time.
 ![Cluster Plot](cluster_plot.png)
 * Most data points form dense clusters, representing normal market behavior.
 * The red points (anomalies) lie far from these clusters, indicating unusual combinations of price movement and volume.
-These may correspond to sudden spikes, crashes, or irregular trading activity.
+* These may correspond to sudden spikes, crashes, or irregular trading activity.
+
+
+P.S:These anomalies could be further investigated as potential trading signals or risk indicators.
 
 ---
 
